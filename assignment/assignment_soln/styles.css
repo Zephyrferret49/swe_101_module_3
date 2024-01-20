@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  background-color: antiquewhite;
+  color: blue;
+}
+
+caption {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: rgb(92, 92, 176);
+}
+
+.highlight {
+  background-color: goldenrod;
+}
+
+tr td:nth-of-type(2) {
+  text-align: center;
+} /* not sure what im supposed to do with this one */
