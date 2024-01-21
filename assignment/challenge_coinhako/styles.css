@@ -3,6 +3,9 @@ header {
   justify-content: space-evenly;
   width: 100%;
 }
+body {
+  background-color: whitesmoke;
+}
 
 .middle-header {
   display: flex;
@@ -25,7 +28,29 @@ header {
   gap: 20px;
 }
 .signup-button {
-  color: rgb(56, 56, 224);
+  background-color: rgb(47, 79, 205);
+  color: antiquewhite;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-button {
+  border: none;
+  background: white;
+
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: whitesmoke;
+}
+
+/* here onwards is for hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
 
 .best-crypto {
@@ -36,11 +61,14 @@ header {
   margin: auto;
   align-items: flex-start;
   margin-bottom: 10px;
+  color: rgb(53, 85, 215);
 }
 
 .enjoy-quick {
   text-align: center;
+  font-size: 13px;
 }
+
 .lion-license-box {
   display: flex;
   width: 250px;
@@ -54,4 +82,107 @@ header {
   justify-content: center;
   gap: 50px;
   align-items: flex-end;
+}
+
+.generic-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sgd-prices-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50px;
+  gap: 3px;
+}
+
+.row-of-bitcoin-containers {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* This section is to adjust the contents of each oval */
+
+.bitcoin-container {
+  background-color: white;
+  width: 170px;
+  border-radius: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oval-with-icon-and-coin-name {
+  display: flex;
+}
+
+.coin-name-row {
+  display: flex;
+  gap: 3px;
+}
+.coin-value-row {
+  display: flex;
+  gap: 3px;
+}
+
+.bitcoin-icons {
+  padding-right: 5px;
+}
+
+.scroll-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* from here on is for the next section */
+.bigger-body-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+.main-buysell-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.box-with-tick {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+
+.box-for-buysell-header {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.payment-options {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+
+.payment-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.fiat-at-spot-price-style {
+  color: rgb(47, 79, 205);
+  font-style: bold;
 }
