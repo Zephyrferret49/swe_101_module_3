@@ -19,7 +19,7 @@ body {
 }
 
 .middle-header a:hover {
-  color: rgb(56, 56, 224);
+  color: rgb(79, 117, 213);
 }
 .right-header {
   display: flex;
@@ -28,10 +28,13 @@ body {
   gap: 20px;
 }
 .signup-button {
-  background-color: rgb(47, 79, 205);
+  background-color: rgb(79, 117, 213);
   color: antiquewhite;
   cursor: pointer;
   border-radius: 5px;
+}
+.signup-button:hover {
+  background-color: rgb(108, 144, 234);
 }
 
 .login-button {
@@ -60,8 +63,9 @@ body {
   width: 500px;
   margin: auto;
   align-items: flex-start;
+  margin-top: 100px;
   margin-bottom: 10px;
-  color: rgb(53, 85, 215);
+  color: rgb(79, 117, 213);
 }
 
 .enjoy-quick {
@@ -183,6 +187,6 @@ body {
 }
 
 .fiat-at-spot-price-style {
-  color: rgb(47, 79, 205);
+  color: rgb(79, 117, 213);
   font-style: bold;
 }
